@@ -7,7 +7,7 @@ app.use(cors());
 
 const mongoose = require("mongoose");
 
-mongoose.connect("mongodb+srv://baljeetmatta_db_user:Server4001@cluster0.jbjd8fy.mongodb.net/sectiond?appName=Cluster0")
+mongoose.connect("MongoDbURL")
     .then((response) => {
         console.log("Db connected...");
         seedDatabase();
